@@ -291,8 +291,8 @@ footer a {
 }
 .question {
   color: #f9f9f9;
-  position: absolute;
-  align-self: flex-end;
+  /*position: absolute;
+  align-self: flex-end;*/
   margin: 50px 50px;
 }
 .logo-end {
@@ -393,9 +393,34 @@ footer a {
     margin-right: 50px;
     gap: 50px;
   }
-}
-@media screen and (min-width: 600px) {
   .list {
-    /* display: block; */
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  footer {
+    margin: 10px;
+  }
+  .question {
+    width: 70%;
+  }
+  .list {
+    flex-direction: column;
+  }
+  .list li {
+    pudding: 5px 0;
+  }
+  list h3 {
+    padding-bottom: 5px;
+  }
+  .footer-first,
+  .footer-second,
+  .footer-third,
+  .footer-fourth {
+    margin-top: 15;
+    margin-bottom: 15px;
   }
 }
