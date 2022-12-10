@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  /*background-image: url("taxi1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url ("empirestate.jpg");*/
+}
+.logo {
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  header {
+    /* display: flex;
+  justify-content: space-between;
+  background-color: black;
+  flex-wrap: wrap;*/
+    display: grid;
+    grid-template-columns: 8% 739px auto;
+  }
+}
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: black;
+}
+
+h1 {
+  color: #fff;
+}
+
+/* Navbar container */
+.navbar,
+.navbar2 {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a,
+.navbar2 a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 40px;
+}
+.logo {
+  color: white;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.container {
+  background-image: url("taxi1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  border-radius: 40px;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover,
+.navbar2 a:hover,
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.table {
+  margin: 0 auto;
+}
+h1 {
+  font-size: 50px;
+  color: black;
+  text-align: left;
+  padding: 40px 10px;
+}
+p {
+  text-align: left;
+  padding: 10px 10px;
+}
+.box {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 0.5%;
+  width: 500px;
+  max-width: fit-content;
+  padding: 30px;
+  border: 10 px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.subscribe {
+  text-decoration: none;
+  color: #fafafa;
+  background-color: #010101;
+  display: block;
+  padding: 15px 20px;
+  margin: 15px;
+  border-color: transparent;
+  border-radius: 10px;
+  box-shadow: 3px 2px 2px darkslategray;
+  font-size: 15px;
+  font-weight: bold;
+}
+.subscribe:hover {
+  opacity: 0.8;
+}
+.more-info {
+  text-decoration: none;
+  margin: 20px;
+  color: #010101;
+  padding: 17px 3px;
+  margin: 15px;
+  text-align: left;
+}
+.link {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.link2 {
+  text-decoration: none;
+  color: #010101;
+}
+.link2:hover {
+  text-decoration: underline;
+}
+.container2 {
+  background-image: url("empire.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+p .container2 {
+  margin-left: 12px;
+}
+.empire {
+  text-decoration: none;
+  color: #fafafa;
+  background-color: #010101;
+  display: block;
+  padding: 15px 20px;
+  margin: 15px;
+  border-color: transparent;
+  border-radius: 10px;
+  box-shadow: 3px 2px 2px darkslategray;
+  font-size: 15px;
+  font-weight: bold;
+}
+.b-3 {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.pictures {
+  margin: 40px 20px 0px 20px;
+}
+.pictures h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.flex-box-pictures {
+  display: flex;
+  flex-direction: column;
+}
+.first-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 485px;
+}
+
+.first-item h3 {
+  font-size: 18px;
+  color: #333333;
+  margin: 20px 0px;
+}
+.first-item p {
+  font-size: 16px;
+  color: grey;
+  line-height: 1.5;
+  margin: 20px 0px;
+}
+.first-item a {
+  font-size: 16px;
+  color: grey;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+.second-column {
+  margin-top: 30px 0px 50px 0px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  padding: 50px;
+}
+.column {
+  float: left;
+}
+
+.left,
+.right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+.column a {
+  text-decoration: none;
+  color: #010101;
+}
+.column a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: #010101;
+  display: flex;
+  flex-direction: column;
+}
+footer a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.question {
+  color: #f9f9f9;
+  position: absolute;
+  align-self: flex-end;
+  margin: 50px 50px;
+}
+.logo-end {
+  color: #f9f9f9;
+  margin: 50px;
+  font-weight: bold;
+  font-size: larger;
+  padding-top: 50px;
+}
+.footer-link {
+  padding-left: 50px;
+  margin-bottom: 30px;
+  color: #f9f9f9;
+}
+.footer-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 40px;
+}
+.list h3 {
+  color: #f9f9f9;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.list h3 {
+  padding-bottom: 15px;
+}
+.list li {
+  padding: 5px;
+}
+.list ul {
+  list-style: none;
+}
+.footer-first {
+  flex: 1;
+}
+.footer-second {
+  flex: 1;
+}
+.footer-third {
+  flex: 1;
+}
+.footer-fourth {
+  flex: 1;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .flex-box-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-even;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  .first-item {
+    min-width: 254px;
+    max-width: 500px;
+    flex: 1;
+    margin: 0 20px;
+  }
+
+  .info-container {
+    /* max-width: 350px;*/
+    margin-right: 30px;
+  }
+  .tablet-flex {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1135px) {
+  .left-container {
+    margin-left: 15%;
+  }
+  .right-container {
+    margin-right: 15%;
+  }
+
+  .hide {
+    display: flex;
+  }
+
+  .pictures {
+    margin-left: 20%;
+  }
+  .first-item {
+    max-width: 550px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .list {
+    /* display: block; */
+    flex-direction: column;
+  }
+}
